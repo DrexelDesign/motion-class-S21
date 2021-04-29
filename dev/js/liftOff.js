@@ -31,3 +31,6 @@ function controlFlames(){
     gsap.set(".flames",{display:"block"});
     flamesTL.play()
 }
+
+// start flames for testing 
+// controlFlames();

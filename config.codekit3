@@ -323,8 +323,13 @@
   },
   "projectAttributes" : {
     "creationDate" : 639010553.72737396,
+<<<<<<< Updated upstream
     "displayValue" : "motion-in-class",
     "displayValueWasSetByUser" : 0,
+=======
+    "displayValue" : "motion-class-S21",
+    "displayValueWasSetByUser" : 1,
+>>>>>>> Stashed changes
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0
   },

@@ -1,5 +1,9 @@
 import { gsap } from "gsap";
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
-gsap.to("#red-circle", { duration: 4, x: 200 });
+gsap.registerPlugin(DrawSVGPlugin);
 
-gsap.from("#blue-square", { duration: 4, scale: 2, alpha: 0, delay: 2, repeat: -1, yoyo: true });
+
+let drawTL = gsap.timeline();
+
+drawTL.to("#myPath",{duration:2, drawSVG:0});

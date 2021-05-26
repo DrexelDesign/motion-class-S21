@@ -40,12 +40,20 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/shapes.kit" : {
+    "\/design\/drawSVG.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/drawSVG.sketch",
+      "oF" : 0
+    },
+    "\/dev\/content\/drawSVG.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/shapes.html",
+      "oAP" : "\/dev\/content\/drawSVG.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -323,13 +331,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 639010553.72737396,
-<<<<<<< Updated upstream
-    "displayValue" : "motion-in-class",
-    "displayValueWasSetByUser" : 0,
-=======
     "displayValue" : "motion-class-S21",
     "displayValueWasSetByUser" : 1,
->>>>>>> Stashed changes
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0
   },

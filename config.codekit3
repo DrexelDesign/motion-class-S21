@@ -48,12 +48,12 @@
       "oAP" : "\/design\/drawSVG.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/drawSVG.kit" : {
+    "\/dev\/content\/clipPath.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/drawSVG.html",
+      "oAP" : "\/dev\/content\/clipPath.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {

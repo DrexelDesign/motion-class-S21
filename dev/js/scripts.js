@@ -1,14 +1,11 @@
 import { gsap } from "gsap";
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
-
-gsap.registerPlugin(DrawSVGPlugin);
 
 
-let drawTL = gsap.timeline();
+let clipPathTL = gsap.timeline();
+// move the graphic and keep the clip path still
+// clipPathTL.fromTo("#color-stripes",{x:"+=350"},{duration:4, x:"-=400"});
 
-drawTL.to("#myPath",{duration:2, drawSVG:0});
-// drawTL.from("#myPath",{duration:2, drawSVG:0});
-// drawTL.to("#myPath",{duration:2, drawSVG:"50% 50%" });
-
-// drawTL.fromTo("#myPath",{drawSVG:"0% 10%" },{duration:2, drawSVG:"95% 100%", ease:"bounce.out"})
-//     .to("#myPath",{duration:2, drawSVG:"0% 100%"});
+// move the clip path and keep the graphic still
+// clipPathTL.to("#clip-box",{duration:2, x:"-=400"})
+//             .to("#clip-box",{duration:2, y:"-=400"})
+//             .to("#clip-box",{duration:2, y:"+=400", x:"+=500"});

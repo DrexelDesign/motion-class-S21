@@ -11,13 +11,31 @@
     >div{
 		// border: 1px solid red;
     background-color: $blue;
-    width: 40%;
     overflow: hidden;
     padding: 20px 0;
+
+    width: 60%;
+    
+    
+
+
+
+    // width: 30%;
+
     #scrollText{
       color: $white;
       width: 100vw;
       font-size: rem-calc(20);
     }
+
+    // #scrollContainer{
+    //   display: flex;
+    //   width: 100vw;
+
+    //   p{
+    //     font-size: rem-calc(40);
+    //     margin-right: 10px;
+    //   }
+    // }
 	}
 }

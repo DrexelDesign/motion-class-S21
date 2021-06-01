@@ -433,9 +433,9 @@ textarea {
 }
 #scroll > div {
   background-color: #29c9ff;
-  width: 40%;
   overflow: hidden;
   padding: 20px 0;
+  width: 60%;
 }
 #scroll > div #scrollText {
   color: #fff;

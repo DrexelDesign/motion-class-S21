@@ -408,6 +408,6 @@ textarea {
 /* =============
     Footer
 ============= */
-#star, #hello {
-  visibility: hidden;
+#morphSVG {
+  cursor: pointer;
 }

@@ -16,6 +16,7 @@ var speedNumber = 0;
 var myVar = setInterval(speedCounter, counterSpeed);
 
 export function speedCounter() {
+
 	if (speedNumber < topSpeed) {
 		speedNumber++;
 		document.getElementById("speedTag").innerHTML = speedNumber;

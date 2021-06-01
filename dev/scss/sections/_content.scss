@@ -1,0 +1,16 @@
+#content{
+    
+    @include md{
+        display: grid;
+        grid-template-columns: auto 80vw auto;
+        grid-template-areas: ". content .";
+    }
+    >div{
+        position: relative;
+        height: 100vh;
+        @include md{
+            grid-area: content;
+        }
+
+    }
+}

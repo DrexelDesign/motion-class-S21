@@ -437,8 +437,10 @@ textarea {
   padding: 20px 0;
   width: 60%;
 }
-#scroll > div #scrollText {
-  color: #fff;
+#scroll > div #scrollContainer {
   width: 100vw;
-  font-size: 1.25rem;
+}
+#scroll > div #scrollContainer p {
+  font-size: 2.5rem;
+  margin-right: 10px;
 }

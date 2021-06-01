@@ -40,20 +40,20 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/drawSVG.sketch" : {
+    "\/design\/morphSVG.sketch" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/drawSVG.sketch",
+      "oAP" : "\/design\/morphSVG.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/clipPath.kit" : {
+    "\/dev\/content\/morphSVG.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/clipPath.html",
+      "oAP" : "\/dev\/content\/morphSVG.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {

@@ -1,11 +1,15 @@
 import { gsap } from "gsap";
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
+gsap.registerPlugin(MorphSVGPlugin);
 
-let clipPathTL = gsap.timeline();
-// move the graphic and keep the clip path still
-// clipPathTL.fromTo("#color-stripes",{x:"+=350"},{duration:4, x:"-=400"});
+gsap.set("#box",{transformOrigin:"center"});
+gsap.set("#star",{transformOrigin:"center"});
 
-// move the clip path and keep the graphic still
-clipPathTL.to("#clip-circle",{duration:2, x:"-=400"})
-            .to("#clip-circle",{duration:2, y:"-=400", scale:0.5})
-            .to("#clip-circle",{duration:2, y:"+=400", x:"+=500"});
+let morphTL = gsap.timeline();
+
+// morphTL.to("#box", {duration: 1, morphSVG:"#star"});
+
+// morphTL.to("#box", {duration: 1, morphSVG:"#star",rotation:180, fill:"#000"});
+
+// morphTL.to("#box", {duration: 1, morphSVG:"#hello", fill:"#FB1515"});

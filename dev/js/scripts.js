@@ -1,12 +1,7 @@
-// import { gsap } from "gsap";
+import { gsap } from "gsap";
 import $ from "jquery"
-import { speedCounter } from "./speed";
 
+let textLength = $("#scrollText").width();
+console.log(textLength + " is the text width");
 
-// A $( document ).ready() block.
-$(document).ready(function () {
-
-    // let numberToCount = document.getElementById("speedTag");
-    // console.log(numberToCount);
-    speedCounter();
-});
+gsap.to("#scrollText",{duration:20, x:-textLength, ease:"none"});

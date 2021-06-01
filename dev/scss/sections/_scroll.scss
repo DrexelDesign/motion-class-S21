@@ -1,0 +1,23 @@
+#scroll{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+
+    // margin-top: -200px;
+
+    >div{
+		// border: 1px solid red;
+    background-color: $blue;
+    width: 40%;
+    overflow: hidden;
+    padding: 20px 0;
+    #scrollText{
+      color: $white;
+      width: 100vw;
+      font-size: rem-calc(20);
+    }
+	}
+}

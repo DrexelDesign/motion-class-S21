@@ -1,13 +1,7 @@
 // import { gsap } from "gsap";
 
-import $ from "jquery"
+import { speedCounter } from "./speed"
 
-let audio = document.getElementById("audio");
-
-$("#box").on("click",function(){
-    console.log("play");
-    audio.play();
-})
 
 
 

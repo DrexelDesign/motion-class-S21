@@ -418,6 +418,7 @@ textarea {
 #content > div {
   position: relative;
   height: 100vh;
+  border: 1px solid red;
 }
 @media (min-width: 768px) {
   #content > div {

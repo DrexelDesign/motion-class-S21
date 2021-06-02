@@ -8,7 +8,7 @@ Change the counter speed for how fast your want your number to go up. 1000 is eq
 var counterSpeed = 100;
 
 // Set this number you want your counter to count up to. Default is 20
-var topSpeed = 20;
+var topSpeed = 20.5;
 
 // If yu don't want your speed to start at 0, change it here. Default is 0.
 var speedNumber = 0;
